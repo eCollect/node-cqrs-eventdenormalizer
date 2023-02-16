@@ -21,7 +21,7 @@
     "sift": "5.0.0",
     "tolerance": "1.0.0",
     "uuid": "^9.0.0",
-    "viewmodel": "1.11.1"
+    "viewmodel": "github:eCollect/node-viewmodel#deps/bump-latest"
   },
   "devDependencies": {
     "aws-sdk": ">=2.104.0",
