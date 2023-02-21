@@ -71,7 +71,7 @@ It can be very useful as eventdenormalizer component if you work with (d)ddd, cq
 	  retryOnConcurrencyTimeout: 1000,
 
 	  // optional, default is in-memory
-	  // currently supports: mongodb, redis, tingodb, couchdb, azuretable, dynamodb and inmemory
+	  // currently supports: mongodb, redis, tingodb, couchdb, azuretable and inmemory
 	  // hint: [viewmodel](https://github.com/adrai/node-viewmodel#connecting-to-any-repository-mongodb-in-the-example--modewrite)
 	  // hint settings like: [eventstore](https://github.com/adrai/node-eventstore#provide-implementation-for-storage)
 	  repository: {
@@ -87,7 +87,7 @@ It can be very useful as eventdenormalizer component if you work with (d)ddd, cq
 	  },
 
 	  // optional, default is in-memory
-	  // currently supports: mongodb, redis, tingodb, dynamodb and inmemory
+	  // currently supports: mongodb, redis, tingodb and inmemory
 	  // hint settings like: [eventstore](https://github.com/adrai/node-eventstore#provide-implementation-for-storage)
 	  revisionGuard: {
 	    queueTimeout: 1000,                         // optional, timeout for non-handled events in the internal in-memory queue
