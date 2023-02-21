@@ -9,7 +9,6 @@ before_install:
 services:
   - redis-server
   - mongodb
-  - couchdb
 
 language: node_js
 node_js:
