@@ -1,7 +1,7 @@
 {
   "author": "adrai",
   "name": "cqrs-eventdenormalizer",
-  "version": "1.17.1",
+  "version": "1.18.0",
   "private": false,
   "main": "index.js",
   "engines": {
@@ -21,7 +21,7 @@
     "sift": "5.0.0",
     "tolerance": "1.0.0",
     "uuid": "^9.0.0",
-    "viewmodel": "github:eCollect/node-viewmodel#deps/bump-latest"
+    "viewmodel": "github:eCollect/node-viewmodel"
   },
   "devDependencies": {
     "eslint": ">=1.0.0",
@@ -42,13 +42,13 @@
     "eventdenormalizer",
     "domain"
   ],
-  "homepage": "https://github.com/adrai/node-cqrs-eventdenormalizer",
+  "homepage": "https://github.com/eCollect/node-cqrs-eventdenormalizer",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adrai/node-cqrs-eventdenormalizer.git"
+    "url": "git@github.com:eCollect/node-cqrs-eventdenormalizer.git"
   },
   "bugs": {
-    "url": "https://github.com/adrai/node-cqrs-eventdenormalizer/issues"
+    "url": "https://github.com/eCollect/node-cqrs-eventdenormalizer/issues"
   },
   "licenses": [
     {
