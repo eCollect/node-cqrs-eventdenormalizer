@@ -1,7 +1,7 @@
 {
   "author": "adrai",
   "name": "cqrs-eventdenormalizer",
-  "version": "1.17.1",
+  "version": "1.18.0",
   "private": false,
   "main": "index.js",
   "engines": {
@@ -11,26 +11,24 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "async": "1.5.2",
-    "debug": "3.1.0",
-    "dotty": "0.0.2",
-    "flat": "4.0.0",
+    "async": "^3.2.4",
+    "debug": "^4.3.4",
+    "dotty": "^0.1.2",
+    "flat": "5.0.2",
     "jsondate": "0.0.1",
-    "lodash": "4.17.19",
+    "lodash": "^4.17.21",
     "parent-require": "1.0.0",
     "sift": "5.0.0",
     "tolerance": "1.0.0",
-    "uuid": "3.1.0",
-    "viewmodel": "1.11.1"
+    "uuid": "^9.0.0",
+    "viewmodel": "github:eCollect/node-viewmodel"
   },
   "devDependencies": {
-    "aws-sdk": ">=2.104.0",
-    "cradle": ">=0.6.7",
     "eslint": ">=1.0.0",
     "expect.js": ">= 0.1.2",
-    "mocha": "3.x.x",
-    "mongodb": "2.2.x",
-    "redis": ">= 0.10.1",
+    "mocha": "^10.2.0",
+    "mongodb": "^5.0.1",
+    "redis": "^4.6.4",
     "tingodb": ">= 0.0.1"
   },
   "description": "Node-cqrs-eventdenormalizer is a node.js module that implements the cqrs pattern. It can be very useful as eventdenormalizer component if you work with (d)ddd, cqrs, domain, host, etc.",
@@ -44,13 +42,13 @@
     "eventdenormalizer",
     "domain"
   ],
-  "homepage": "https://github.com/adrai/node-cqrs-eventdenormalizer",
+  "homepage": "https://github.com/eCollect/node-cqrs-eventdenormalizer",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adrai/node-cqrs-eventdenormalizer.git"
+    "url": "git@github.com:eCollect/node-cqrs-eventdenormalizer.git"
   },
   "bugs": {
-    "url": "https://github.com/adrai/node-cqrs-eventdenormalizer/issues"
+    "url": "https://github.com/eCollect/node-cqrs-eventdenormalizer/issues"
   },
   "licenses": [
     {
@@ -59,6 +57,7 @@
     }
   ],
   "scripts": {
-    "test": "mocha test/unit && mocha test/integration"
+    "unit-tests": "mocha test/unit -R spec -t 6000 --recursive --exit",
+    "integration-tests": "mocha test/integration -R spec -t 6000 --exit"
   }
 }
